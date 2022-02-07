@@ -1,7 +1,7 @@
 steps:
 #First Clone from GitHub Repository  
 - name: 'gcr.io/cloud-builders/git'
-  args: ['clone','https://github.com/CoinWaveApp/SiteVitrine.git']
+  args: ['clone','git@github.com:CoinWaveApp/SiteVitrine.git']
 
 #Build the image 
 - name: 'gcr.io/cloud-builders/docker'
