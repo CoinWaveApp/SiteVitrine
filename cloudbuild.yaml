@@ -18,7 +18,7 @@ steps:
   args:
   - clone
   - --recurse-submodules
-  - git@github.com:GIT_USERNAME/GIT_REPOSITORY
+  - git@github.com:CoinWaveApp/SiteVitrine
   volumes:
   - name: 'ssh'
     path: /root/.ssh
