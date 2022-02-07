@@ -23,10 +23,10 @@ steps:
     name: 'ssh'
     path: /root/.ssh
 
-availableSecrets:
-  secretManager:
-    versionName: projects/coinwave/secrets/secret-name/versions/latest
-    env: 'SSH_KEY'
+  availableSecrets:
+    secretManager:
+      versionName: projects/coinwave/secrets/secret-name/versions/latest
+      env: 'SSH_KEY'
 
   name: 'gcr.io/cloud-builders/git'
   args: ['clone','git@github.com:CoinWaveApp/SiteVitrine.git']
