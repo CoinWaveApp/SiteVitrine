@@ -22,7 +22,6 @@ steps:
   volumes:
     name: 'ssh'
     path: /root/.ssh
-
 availableSecrets:
   secretManager:
     versionName: projects/coinwave/secrets/secret-name/versions/latest
