@@ -21,7 +21,8 @@ steps:
     git@github.com:CoinWaveApp/SiteVitrine.git
   volumes:
     name: 'ssh'
-    path: '/root/.ssh'
+    path: /root/.ssh
+
 availableSecrets:
   secretManager:
     versionName: projects/coinwave/secrets/secret-name/versions/latest
