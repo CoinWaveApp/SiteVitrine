@@ -19,9 +19,6 @@ steps:
     clone
     --recurse-submodules
     git@github.com:CoinWaveApp/SiteVitrine.git
-  volumes:
-    name: 'ssh'
-    path: /root/.ssh
 
 availableSecrets:
   secretManager:
