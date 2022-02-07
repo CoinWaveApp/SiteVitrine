@@ -28,6 +28,8 @@ availableSecrets:
   - versionName: projects/PROJECT_ID/secrets/secret-name/versions/latest
     env: 'SSH_KEY'
     
+
+
 #First Clone from GitHub Repository  
 - name: 'gcr.io/cloud-builders/git'
   args: ['clone','git@github.com:CoinWaveApp/SiteVitrine.git']
