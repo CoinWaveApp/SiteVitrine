@@ -4789,7 +4789,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .roadmap-wrap:before, .roadmap-wrap:after { position: absolute; content: ''; top: 0; bottom: 0; z-index: 7; }
 
-.roadmap-wrap-ovl-right:after { right: 0; background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, #fff 60%, #fff 100%); }
+/*.roadmap-wrap-ovl-right:after { right: 0; background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, #fff 60%, #fff 100%); }*/
 
 .bg-light .roadmap-wrap-ovl-right:after { background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(240, 247, 252, 0.8) 25%, #f0f7fc 60%, #f0f7fc 100%); }
 
@@ -4797,7 +4797,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .bg-white .roadmap-wrap-ovl-right:after { background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.8) 25%, #fff 60%, #fff 100%); }
 
-.bg-theme .roadmap-wrap-ovl-right:after { background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(15, 25, 50, 0.8) 25%, #0f1932 60%, #0f1932 100%); }
+/*.bg-theme .roadmap-wrap-ovl-right:after { background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(15, 25, 50, 0.8) 25%, #0f1932 60%, #0f1932 100%); }*/
 
 .bg-theme_alt .roadmap-wrap-ovl-right:after { background-image: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(32, 43, 71, 0.8) 25%, #202b47 60%, #202b47 100%); }
 
@@ -5394,7 +5394,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
   .token-info .text-block-title { text-align: center; }
   .token-info-list li { display: flex; }
   .token-info-list li > span { width: 50%; }
-  .token-info-title { font-size: 0.88rem; letter-spacing: 0.2em; }
+  .token-info-title { font-size: 0.88rem; letter-spacing: 0.1em; }
   .token-info-des { font-size: 1.375rem; }
   .token-info-s1 { padding: 0 30px; }
   .token-status { padding: 24px 28px 20px; }
@@ -6457,7 +6457,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .has-fixed:not(.is-dark) .header-main { background: #fff; }
 
-.has-fixed.is-dark .header-main { background: #0a1227; }
+.has-fixed.is-dark .header-main { background: #08090f; }
 
 .has-fixed.is-shrink .header-main { padding: 8px 0; }
 
