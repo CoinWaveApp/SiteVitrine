@@ -13,7 +13,7 @@ steps:
   - 'set'
   - 'image'
   - 'deployment/site-vitrine'
-  - 'frontend=gcr.io/coinwave/frontend:${_VERSION}'
+  - 'frontend=europe-west3-docker.pkg.dev/coinwave/site-vitrine-repo/frontend:${_VERSION}'
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=europe-west3-a'
   - 'CLOUDSDK_CONTAINER_CLUSTER=cluster-dev'
