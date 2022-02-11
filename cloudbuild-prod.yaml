@@ -4,11 +4,11 @@ steps:
   args:
   - 'set'
   - 'image'
-  - 'deployment/site-vitrine'
+  - 'deployment/site-vitrine-prod'
   - 'frontend=europe-west3-docker.pkg.dev/coinwave/site-vitrine-repo/frontend:latest'
   env:
   - 'CLOUDSDK_COMPUTE_ZONE=europe-west2-a'
-  - 'CLOUDSDK_CONTAINER_CLUSTER=cluster-prod'
+  - 'CLOUDSDK_CONTAINER_CLUSTER=cluster-dev'
   
 options:
     substitution_option: 'ALLOW_LOOSE'
