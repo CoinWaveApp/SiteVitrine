@@ -81,19 +81,19 @@ blockquote::after, blockquote::before, q::after, q::before { content: none; }
 
 table { border-collapse: collapse; border-spacing: 0; }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { color: #202b47; font-weight: 700; font-family: "Quicksand", sans-serif; line-height: 1.45; margin-bottom: 0.5rem; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { color: #202b47; font-weight: 700; font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol'; line-height: 1.45; margin-bottom: 0.5rem; }
 
 h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child, .h1:last-child, .h2:last-child, .h3:last-child, .h4:last-child, .h5:last-child, .h6:last-child { margin-bottom: 0; }
 
 .tc-light h1, .tc-light h2, .tc-light h3, .tc-light h4, .tc-light h5, .tc-light h6, .tc-light .h1, .tc-light .h2, .tc-light .h3, .tc-light .h4, .tc-light .h5, .tc-light .h6 { color: #fff; }
 
-p { font-size: 14px; margin-bottom: 1rem; color: #305082; }
+p, pre { font-size: 14px; margin-bottom: 1rem; color: #305082; }
 
-p:last-child { margin-bottom: 0; }
+p:last-child, pre:last-child { margin-bottom: 0; }
 
 p + [class*=btn] { margin-top: 15px; }
 
-@media (min-width: 576px) { p { font-size: 16px; } }
+@media (min-width: 576px) { p, pre { font-size: 16px; } }
 
 ul, ol, table { margin: 0; padding: 0; }
 
@@ -480,7 +480,7 @@ h6, .h6, .fz-6 { font-size: 0.94rem; }
 
 .tc-danger, .tc-danger a { color: #e6604a !important; }
 
-.tc-light p, .tc-light .list { color: #97afd5; }
+.tc-light p, .tc-light .list, .tc-light pre { color: #97afd5; }
 
 .tc-light .lead, .tc-light .lead-light, .tc-light .lead-s2 { color: #97afd5; }
 
@@ -582,7 +582,7 @@ h6, .h6, .fz-6 { font-size: 0.94rem; }
 
 .bg-white-22 { background-color: rgba(255, 255, 255, 0.22); }
 
-.bg-theme { background-color: #0f1932 !important; }
+.bg-theme { background-color: #175E8E !important; }
 
 .bg-theme.current { background-color: rgba(15, 25, 50, 0.7) !important; }
 
@@ -6457,7 +6457,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .has-fixed:not(.is-dark) .header-main { background: #fff; }
 
-.has-fixed.is-dark .header-main { background: #08090f; }
+.has-fixed.is-dark .header-main { background: #10405E; }
 
 .has-fixed.is-shrink .header-main { padding: 8px 0; }
 
