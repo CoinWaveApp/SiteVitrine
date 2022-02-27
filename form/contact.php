@@ -3,13 +3,28 @@ header('Content-type: application/json');
 require_once('php-mailer/PHPMailerAutoload.php'); // Include PHPMailer
 
 $mail = new PHPMailer();
+$mail->isSMTP();
+$mail->SMTPAuth = true;
+$mail->SMTPSecure = 'ssl';
+$mail->Host = 'smtp.gmail.com';
+$mail->Port = '465';
+$mail->isHTML();
+$mail->Username = 'zahreddinelaidi99@gmail.com';
+$mail->Password = '23purespartage';
+$mail->SetForm('no-reply@howcode.org');
+$mail->Subject = 'Hello world';
+$mail->Body = 'test mail!';
+$mail->AddAddress('francis@howcode.org');
+$mail->Send();
+
+/*$mail = new PHPMailer();
 $emailTO = $emailBCC =  $emailCC = array(); $formEmail = '';
 
 ### Enter Your Sitename 
-$sitename = 'Your Site Name';
+$sitename = 'CoinWave';
 
 ### Enter your email addresses: @required
-$emailTO[] = array( 'email' => 'email@yoursite.com', 'name' => 'Your Name' ); 
+$emailTO[] = array( 'email' => 'zahreddinelaidi99@gmail.com', 'name' => 'ZL' ); 
 
 ### Enable bellow parameters & update your BCC email if require.
 //$emailBCC[] = array( 'email' => 'email@yoursite.com', 'name' => 'Your Name' );
@@ -38,13 +53,14 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST') {
 		
 		if ($honeypot == '' && !(empty($emailTO))) {
 			### If you want use SMTP 
-			// $mail->isSMTP();
-			// $mail->SMTPDebug = 0;
-			// $mail->Host = 'smtp_host';
-			// $mail->Port = 587;
-			// $mail->SMTPAuth = true;
-			// $mail->Username = 'smtp_username';
-			// $mail->Password = 'smtp_password';
+			$mail->isSMTP();
+			$mail->SMTPDebug = 0;
+			$mail->Host = 'smtp.gmail.com';
+			$mail->Port = '465';
+			$mail->SMTPAuth = true;
+            $mail->SMTPSecure = 'ssl';
+			$mail->Username = 'zahreddinelaidi99@gmail.com';
+			$mail->Password = '23purespartage';
 
 			### Regular email configure
 			$mail->IsHTML(true);
@@ -96,4 +112,4 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST') {
 	} else {
 		echo json_encode(array ('result' => "error", 'message' => "Please <strong>Fill up</strong> all required fields and try again."));
 	}
-}
+}*/
