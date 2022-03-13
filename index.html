@@ -19,8 +19,9 @@
 <script>
     setTimeout(() => {
       let elem = document.getElementsByClassName('owl-nav').item(0)
+      console.log(elem)
       elem.classList.add('disabled');
-    }, 100);
+    }, 1000);
   </script>   
   <body class="bg-theme">
 	<div class="nk-wrap">
@@ -85,46 +86,10 @@
                         </div><!-- .row -->
                     </div>
                 </div>
-                <div class="nk-block nk-block-status">
+               
+                <div style="transform: translateY(-70px);" class="nk-block nk-block-actions">
                     <div class="container container-xxl">
-                        <div class="row gutter-vr-40px justify-content-between">
-                            <div class="col-xxl-6 col-xl-5 col-lg-5">
-                                <div class="progress-wrap progress-wrap-point animated" data-animate="fadeInUp" data-delay="0.8">
-                                    <ul class="progress-info progress-info-s2">
-                                        <li>Raised -  <span>1,1M Tokens</span></li>
-                                        <li class="text-right">Target - <span>100 M Tokens</span></li>
-                                    </ul>
-                                    <div class="progress-bar progress-bar-xs">
-                                        <div class="progress-percent progress-percent-s2" data-percent="30"></div>
-                                        <div class="progress-point" data-point="25">Soft Cap</div>
-                                        <div class="progress-point" data-point="55">Crowdsale</div>
-                                        <div class="progress-point" data-point="85">Hard Cap</div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xxl-5 col-xl-6 col-lg-7 text-center text-sm-left">
-                                <div class="row justify-content-around gutter-vr-30px">
-                                    <div class="col-sm-4 col-md-6 col-lg-4 col-xl-5">
-                                        <div class="status-info animated" data-animate="fadeInUp" data-delay="0.9">
-                                            <h6 class="title title-xxs tc-default status-title ttu">The Token Sales Start In</h6>
-                                            <h3 class="fz-3 fw-3 status-percent">45 Days</h3>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-8 col-md-6 col-lg-7 col-xl-7">
-                                        <div class="status-countdown float-sm-right animated" data-animate="fadeInUp" data-delay="1">
-                                            <h6 class="title title-xxs tc-default status-title ttu">The Token Sales ends in</h6>
-                                            <h3 class="fz-3 fw-3 status-percent">60 Days</h3>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="nk-block nk-block-actions">
-                    <div class="container container-xxl">
-                        <div class="row gutter-vr-40px align-items-center">
+                        <div style="transform: scale(1.2);" class="row gutter-vr-40px align-items-center">
                             <div class="col-sm-7 d-flex justify-content-center justify-content-sm-start">
                                 <ul class="btn-grp btn-grp-break justify-content-center justify-content-sm-start gutter-vr-20px">
                                     <li class="animated" data-animate="fadeInUp" data-delay="0.8"><a href="https://www.youtube.com/watch?v=SSo_EIwHSd4" class="link link-light link-break video-popup"><em class="icon-circle icon-border icon-animation fas fa-play"></em><span>How it Works</span></a></li>
@@ -357,7 +322,7 @@
                 </div>
                 <div class="container container-xxl">
                     <div class="nk-block nk-block-sm">
-                        <div class="row">
+                        <div class="row justify-content-center text-center">
                             <div class="col-md-4 col-lg-2 col-6">
                                 <div class="team team-s2 team-sm-s2 team-odd animated" data-animate="fadeInUp" data-delay="0.3">
                                     <div class="team-photo team-photo-s2">
@@ -366,9 +331,7 @@
                                     <h5 class="team-name title title-sm">Rayane EL GUERROUJE</h5>
                                     <span class="team-position team-position-sm">CEO and Project Manager</span>
                                     <ul class="team-social team-social-s2">
-                                        <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
+                                        <li><a href="https://fr.linkedin.com/in/rayane-el-guerrouje-143853a7"><em class="fab fa-linkedin-in"></em></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -380,51 +343,7 @@
                                     <h5 class="team-name title title-sm">Mohamed BACHIR</h5>
                                     <span class="team-position team-position-sm">CTO</span>
                                     <ul class="team-social team-social-s2">
-                                        <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-lg-2 col-6">
-                                <div class="team team-s2 team-sm-s2 team-odd animated" data-animate="fadeInUp" data-delay="0.45">
-                                    <div class="team-photo team-photo-s2">
-                                        <img src="images/azalea/Z.jpg" alt="">
-                                    </div>
-                                    <h5 class="team-name title title-sm">Zahreddine LAIDI</h5>
-                                    <span class="team-position team-position-sm">API &amp; Web Developpement</span>
-                                    <ul class="team-social team-social-s2">
-                                        <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-lg-2 col-6">
-                                <div class="team team-s2 team-sm-s2 team-odd animated" data-animate="fadeInUp" data-delay="0.35">
-                                    <div class="team-photo team-photo-s2">
-                                        <img src="images/azalea/O.jpg" alt="">
-                                    </div>
-                                    <h5 class="team-name title title-sm">Ossama EL HARTY</h5>
-                                    <span class="team-position team-position-sm">Mobile Developpement</span>
-                                    <ul class="team-social team-social-s2">
-                                        <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-lg-2 col-6">
-                                <div class="team team-s2 team-sm-s2 team-odd animated" data-animate="fadeInUp" data-delay="0.5">
-                                    <div class="team-photo team-photo-s2">
-                                        <img src="images/azalea/L.jpg" alt="">
-                                    </div>
-                                    <h5 class="team-name title title-sm">Lucas GRARD</h5>
-                                    <span class="team-position team-position-sm">IT infrastructure</span>
-                                    <ul class="team-social team-social-s2">
-                                        <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
+                                        <li><a href="https://www.linkedin.com/in/mohamed-bachir-dev/"><em class="fab fa-linkedin-in"></em></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -436,36 +355,69 @@
                                     <h5 class="team-name title title-sm">Alexandre Brajeux</h5>
                                     <span class="team-position team-position-sm">UX/UI and Design</span>
                                     <ul class="team-social team-social-s2">
-                                        <li><a href="#"><em class="fab fa-facebook-f"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-linkedin-in"></em></a></li>
-                                        <li><a href="#"><em class="fab fa-twitter"></em></a></li>
+                                        <li><a href="https://www.linkedin.com/in/alexandre-brajeux/"><em class="fab fa-linkedin-in"></em></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                                <div class="col-md-4 col-lg-2 col-6">
+                                <div class="team team-s2 team-sm-s2 team-odd animated" data-animate="fadeInUp" data-delay="0.5">
+                                    <div class="team-photo team-photo-s2">
+                                        <img src="images/azalea/L.jpg" alt="">
+                                    </div>
+                                    <h5 class="team-name title title-sm">Lucas GRARD</h5>
+                                    <span class="team-position team-position-sm">IT infrastructure</span>
+                                    <ul class="team-social team-social-s2">
+                                        <li><a href="https://www.linkedin.com/in/lucas-grard/"><em class="fab fa-linkedin-in"></em></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                <div class="container container-xxl">
+                    <div class="nk-block nk-block-sm">
+                        <div class="row justify-content-center text-center">
+                            <div class="col-md-4 col-lg-2 col-6">
+                                <div class="team team-s2 team-sm-s2 team-odd animated" data-animate="fadeInUp" data-delay="0.45">
+                                    <div class="team-photo team-photo-s2">
+                                        <img src="images/azalea/Z.jpg" alt="">
+                                    </div>
+                                    <h5 class="team-name title title-sm">Zahreddine LAIDI</h5>
+                                    <span class="team-position team-position-sm">API &amp; Web Developpement</span>
+                                    <ul class="team-social team-social-s2">
+                                        <li><a href="https://www.linkedin.com/in/zahreddinelaidi/"><em class="fab fa-linkedin-in"></em></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-2 col-6">
+                                <div class="team team-s2 team-sm-s2 team-odd animated" data-animate="fadeInUp" data-delay="0.35">
+                                    <div class="team-photo team-photo-s2">
+                                        <img src="images/azalea/O.jpg" alt="">
+                                    </div>
+                                    <h5 class="team-name title title-sm">Ossama EL HARTY</h5>
+                                    <span class="team-position team-position-sm">Mobile Developpement</span>
+                                    <ul class="team-social team-social-s2">
+                                        <li><a href="https://www.linkedin.com/in/ossama-el-harty-a1a415190/"><em class="fab fa-linkedin-in"></em></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-2 col-7">
+                                <div class="team team-s2 team-sm-s3 team-odd animated" data-animate="fadeInUp" data-delay="0.55">
+                                    <div class="team-photo team-photo-s2">
+                                        <img src="images/azalea/D.jpg" alt="">
+                                    </div>
+                                    <h5 class="team-name title title-sm">Danny BA</h5>
+                                    <span class="team-position team-position-sm">Blockchain Analyst</span>
+                                    <ul class="team-social team-social-s2">
+                                        <li><a href="https://www.linkedin.com/in/danny-ba-aa38771b7/"><em class="fab fa-linkedin-in"></em></a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Block @s -->
-                    <div class="nk-block block-partners">
-                        <h6 class="title title-md ttu text-center animated" data-animate="fadeInUp" data-delay="0.65">Our Partners</h6>
-                        <ul class="has-carousel partner-list justify-content-center animated" data-items="7" data-items-mobile="2" data-auto="true" data-loop="true" data-animate="fadeInUp" data-delay="0.75">
-                            <li class="partner-logo"><img src="images/partners/a-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/b-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/c-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/d-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/e-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/f-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/g-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/a-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/b-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/c-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/d-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/e-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/f-light.png" alt=""></li>
-                            <li class="partner-logo"><img src="images/partners/g-light.png" alt=""></li>
-                        </ul>
-                    </div>
-                    <!-- Block @e -->
                 </div>
+
+                </div>
+              </div>
+            </div>
 
             </section>
             <!-- // -->

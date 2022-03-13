@@ -5507,6 +5507,8 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .team-sm-s2 { text-align: left; max-width: 145px; }
 
+.team-sm-s3 { text-align: left; max-width: 155px; }
+
 .team-photo { display: block; position: relative; margin-left: auto; margin-right: auto; transition: all .4s; z-index: 2; }
 
 .team-photo + .list { padding-top: 15px; }
