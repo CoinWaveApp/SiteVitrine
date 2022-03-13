@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: site-vitrine-prod-service
+spec:
+  selector:
+    app: site-vitrine-prod-service
+  type: NodePort
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
