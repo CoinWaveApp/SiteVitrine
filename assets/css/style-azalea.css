@@ -500,7 +500,7 @@ h6, .h6, .fz-6 { font-size: 0.94rem; }
 
 .tc-white { color: #fff !important; }
 
-.bg-default { background-color: #305082 !important; }
+.bg-default { background-color: #ffffff !important; }
 
 .bg-alternet { background-color: #0f1932 !important; }
 
@@ -582,7 +582,11 @@ h6, .h6, .fz-6 { font-size: 0.94rem; }
 
 .bg-white-22 { background-color: rgba(255, 255, 255, 0.22); }
 
-.bg-theme { background-color: #175E8E !important; }
+
+
+.bg-theme { background-color: #213140  !important; } 
+
+
 
 .bg-theme.current { background-color: rgba(15, 25, 50, 0.7) !important; }
 
@@ -6459,7 +6463,14 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .has-fixed:not(.is-dark) .header-main { background: #fff; }
 
-.has-fixed.is-dark .header-main { background: #10405E; }
+.has-fixed.is-dark .header-main { background: #38495C
+  ; 
+height: 15%;}
+
+img.logo-light {
+  width: 15%;
+  height: 20%;
+}
 
 .has-fixed.is-shrink .header-main { padding: 8px 0; }
 
