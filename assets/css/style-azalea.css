@@ -6463,9 +6463,7 @@ ul.progress-info { display: flex; justify-content: space-between; }
 
 .has-fixed:not(.is-dark) .header-main { background: #fff; }
 
-.has-fixed.is-dark .header-main { background: #38495C
-  ; 
-height: 15%;}
+.has-fixed.is-dark .header-main { background: #38495C;}
 
 img.logo-light {
   width: 15%;
